@@ -8,22 +8,22 @@ public class Exercise2 {
 	// Implémentez-y une méthode statique "resetPopulation" pour remettre les compteurs à zéro.
 
 	static void createPerson(int age) {
+		Person INDV= new Person(age);
 	}
 
 	static int computePopulationSize() {
 		// TODO remove comment when implemented
-		// return Person.computePopulationSize();
-		return 0;
+		return Person.computePopulationSize();
 	}
 
 	static float computeAveragePopulationAge() {
 		// TODO remove comment when implemented
-		// return Person.computeAveragePopulationAge();
-		return 0.0F;
+		return Person.computeAveragePopulationAge();
+		//return 0.0F;
 	}
 
 	static void resetPopulation() {
 		// TODO remove comment when implemented
-		// Person.resetPopulation();
+		Person.resetPopulation();
 	}
 }
